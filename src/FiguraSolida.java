@@ -1,4 +1,4 @@
-public abstract class FiguraPlana implements Calculable {
+public abstract class FiguraSolida implements Calculable {
 
     @Override
     public abstract double calcularArea();
@@ -7,7 +7,5 @@ public abstract class FiguraPlana implements Calculable {
     public abstract double calcularPerimetro();
 
     @Override
-    public double calcularVolumen() {
-        return 0;
-    }
+    public abstract double calcularVolumen();
 }
